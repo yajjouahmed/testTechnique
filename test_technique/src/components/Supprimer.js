@@ -54,7 +54,8 @@ class Supprimer extends Component {
                     <p><strong>Prenom: </strong>{firstName}</p>
                     <p><strong>Nom: </strong>{lastName}</p>
                     <p><strong>Classe: </strong>{classe}</p>
-                    <button className="button-Delete" onClick={this.onDelete}>Supprimer</button><button className="button-Edit" onClick={this.onEdit}>Modifier</button>
+                    <button className="button-Delete" onClick={this.onDelete}>Supprimer</button>
+                    <button className="button-Edit" onClick={this.onEdit}>Modifier</button>
                   </div>
                 )
               }
