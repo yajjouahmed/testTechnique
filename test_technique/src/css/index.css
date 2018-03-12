@@ -24,7 +24,7 @@ h4{
 }
 .eleve p{
   margin: 9px 0px;
-  width: 70%;
+  width: 58%;
   display: inline-block;
 }
 button{
@@ -35,30 +35,34 @@ button{
   float: initial;
 }
 .button-Edit{
-  margin-right: 30px;
-  color: black;
-  border: none;
-  border-radius: 3px;
-  padding: 0px 4px 1px 4px;
   float: right;
-  background-color: #f8f8f8;
-}
-.button-Delete:hover{
-  background-color: red;
-  transition: 0.6s;
-  border: 1px red solid;
+  color: white;
+  background-color: #00b3df;
+  border: 1px #00b3df solid;
+  padding: 5px 8px 7px 8px;
+  border-radius: 3px;
+  margin: 0px 5px;
 }
 .button-Edit:hover{
+  background-color: white;
+  transition: 0.5s;
+  border: 1px #00b3df solid;
   color: #00b3df;
-  transition: 0.3s;
+}
+.button-Delete:hover{
+  background-color: white;
+  transition: 0.5s;
+  border: 1px red solid;
+  color: red;
 }
 .button-Delete{
-  margin-right: 30px;
-  color: black;
-  border: 1px black solid;
-  border-radius: 3px;
-  padding: 0px 4px 1px 4px;
   float: right;
+  color: white;
+  background-color: red;
+  border: 1px red solid;
+  padding: 5px 8px 7px 8px;
+  border-radius: 3px;
+  margin: 0px 5px;
 }
 .ajouter{
   text-align: center;
@@ -111,16 +115,17 @@ button{
 .button-Form-Add{
   float: none;
   margin: auto;
-  color: black;
-  background-color: white;
-  border: 1px #292727 solid;
-  padding: 2px 4px 3px 4px;
+  color: white;
+  background-color: #00b3df;
+  border: 1px #00b3df solid;
+  padding: 5px 8px 7px 8px;
   border-radius: 3px;
 }
 .button-Form-Add:hover{
-  background-color: #00b3df;
+  background-color: white;
   transition: 0.5s;
   border: 1px #00b3df solid;
+  color: #00b3df;
 }
 .add-Eleve{
   font-family: arial;

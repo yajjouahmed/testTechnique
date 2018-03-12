@@ -52,9 +52,9 @@ class Supprimer extends Component {
                   <div>
                     <img className="img-eleve" src={image} alt="photoprofile"/>
                     <p><strong>Prenom: </strong>{firstName}</p>
-                    <p><strong>Nom: </strong>{lastName}<button className="button-Delete" onClick={this.onDelete}>X</button><button className="button-Edit" onClick={this.onEdit}>Modifier</button></p>
+                    <p><strong>Nom: </strong>{lastName}</p>
                     <p><strong>Classe: </strong>{classe}</p>
-
+                    <button className="button-Delete" onClick={this.onDelete}>Supprimer</button><button className="button-Edit" onClick={this.onEdit}>Modifier</button>
                   </div>
                 )
               }
